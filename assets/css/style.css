@@ -14,6 +14,9 @@ body{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
 
 :root{
     --jumbo: #B4D0E7;
@@ -30,9 +33,22 @@ body{
     padding-top: 2rem;
 }
 
+.pd_top3{
+    padding-top: 2.2rem;
+}
+
+.pd_top1_5{
+    padding-top: 1.5rem;
+}
+
+.pd_top1_7{
+    padding-top: 1.7rem;
+}
+
 .mg_top1{
     margin-top: 1rem;
 }
+
 
 .mg_top2{
     margin-top: 2rem;
@@ -50,6 +66,13 @@ body{
     padding-top: 6rem;
 }
 
+.mg_bot{
+    margin-bottom: 4rem;
+}
+
+.fa-check{
+    color: var(--buttons);
+}
 
 /* #endregion utility */
 
@@ -232,7 +255,7 @@ input{
 }
 
 .border_bot{
-    border-bottom: 4px solid black;
+    border-bottom: 1px solid black;
     padding-bottom: 2rem;
 }
 
