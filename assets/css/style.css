@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.flex{
+    display: flex;
+}
+
 :root{
     --jumbo: #B4D0E7;
     --buttons: #0061FF;
@@ -71,6 +75,32 @@
 /* #endregion funzionalità */
 
 /* #region header */ 
+
+nav{
+    justify-content: space-between;
+}
+
+.left, .right{
+    gap: 1.7rem;
+    padding: 1.5rem;
+}
+
+a, img{
+    margin-top: 0.3rem;
+}
+
+header a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.start{
+    background-color: var(--buttons);
+    border: none;
+    padding: 0 1rem;
+    color: white;
+}
+
 
 /* #endregion header */ 
 
