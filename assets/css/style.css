@@ -22,9 +22,35 @@ body{
     --footer: #000000;
 }
 
-.padding_top{
+.pd_top1{
+    padding-top: 1rem;
+}
+
+.pd_top2{
     padding-top: 2rem;
 }
+
+.mg_top1{
+    margin-top: 1rem;
+}
+
+.mg_top2{
+    margin-top: 2rem;
+}
+
+.mg_top3{
+    margin-top: 3rem;
+}
+
+.gap{
+    gap: 1rem;
+}
+
+.pd_top6{
+    padding-top: 6rem;
+}
+
+
 /* #endregion utility */
 
 /* #region col_ */
@@ -155,7 +181,7 @@ h1{
 
 }
 
-.col_8 > img{
+.jumbo_img{
     max-width: 45%;
     position: absolute;
 }
@@ -194,26 +220,6 @@ input{
     margin: auto;
 }
 
-.pd_top1{
-    padding-top: 1rem;
-}
-
-.pd_top2{
-    padding-top: 2rem;
-}
-
-.mg_top2{
-    margin-top: 2rem;
-}
-
-.mg_top3{
-    margin-top: 3rem;
-}
-
-.gap{
-    gap: 1rem;
-}
-
 .free{
     background-color: var(--buttons);
     border: none;
@@ -230,17 +236,60 @@ input{
     padding-bottom: 2rem;
 }
 
-.pd_top6{
-    padding-top: 6rem;
+.container_team{
+    margin-top: 2rem;
+    text-align: center;
+    border: 2px solid black;
 }
 
-.fa-check{
-    color: var(--buttons);
-    font-weight: ;
+.team{
+    padding: 0.5rem;
+    margin-top: 3rem;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
 }
 
+.bord{
+    border: 1px solid black;
+}
 
+.days{
+    background-color: var(--buttons);
+    border: none;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+}
 
+.team_left{
+    padding: 2rem;
+}
+
+.team_right{
+    padding: 2rem;
+    text-align: end;
+}
+
+.partner{
+    max-width: 90%;
+    padding-top: 8rem;
+}
+
+.right_partner{
+    padding-top: 13rem;
+    max-width: 28%;
+}
+
+.contact_partner{
+    font-size: 1.5rem;
+}
+
+.find_partner{
+    margin-top: 3rem;
+    padding: 0.7rem;
+    background-color: white;
+}
 /* #endregion main */ 
 
 /* #region footer */ 
