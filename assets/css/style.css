@@ -34,6 +34,10 @@ body{
 
 }
 
+.pd_3{
+    padding: 3rem;
+}
+
 .pd_top1{
     padding-top: 1rem;
 }
@@ -52,6 +56,10 @@ body{
 
 .pd_top1_7{
     padding-top: 1.7rem;
+}
+
+.pd_top6{
+    padding-top: 6rem;
 }
 
 .mg_top1{
@@ -79,21 +87,6 @@ body{
     margin-top: 13rem;
 }
 
-
-
-.gap{
-    gap: 1rem;
-}
-
-.gap3{
-    gap: 50px;
-}
-
-.pd_top6{
-    padding-top: 6rem;
-}
-
-
 .mg_bot4{
     margin-bottom: 4rem;
 }
@@ -105,6 +98,19 @@ body{
 .mg_bot6{
     margin-bottom: 6rem;
 }
+
+.mg_bot12{
+    margin-bottom: 12rem;
+}
+
+.gap{
+    gap: 1rem;
+}
+
+.gap3{
+    gap: 50px;
+}
+
 
 .fa-check{
     color: var(--buttons);
@@ -209,19 +215,18 @@ header a{
 
 .jumbo{
     background-color: var(--jumbo);
-
 }
 
 h1{
     max-width: 1980px;
     font-size: 4.5rem;
-    margin-left: 17%;
-    margin-right: 25%;
     padding-top: 3%;
+    padding-bottom: 2rem;
 }
 
 .container_jumbo{
-    margin-left: 17%;
+    width: 60%;
+    margin: auto;
 }
 
 .width_20{
@@ -291,7 +296,8 @@ input{
     padding: 1rem;
     padding-left: 15%;
     padding-right: 15%;
-    margin-left: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
     color: white;
     border-radius: 1rem;
 }
@@ -369,8 +375,13 @@ input{
 }
 
 .partners{
+    height: 350px;
     max-width: 50%;
     text-align: center;
+}
+
+svg{
+    fill: white;
 }
 
 .center{
@@ -401,6 +412,13 @@ input{
 .clear{
     background-color: var(--clear_channel);
 }
+
+.designit_center{
+    padding: 3rem;
+    width: 60%;
+}
+
+
 /* #endregion main */ 
 
 /* #region footer */ 
