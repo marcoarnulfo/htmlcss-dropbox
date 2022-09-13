@@ -37,18 +37,7 @@ body {
 
 /* #region test */
 
-.faq:hover .faq_section:hover .accordion-item-content,
-.faq .accordion-item--default .accordion-item-content {
-    height: 6em;
-    color:black;
-}
 
-.accordion-item-content,
-.faq:hover .accordion-item-content {
-    height: 0;
-    overflow: hidden;
-    transition: .50s;
-}
 
 
 /* #endregion test */
@@ -197,12 +186,31 @@ body {
 
 /* #region funzionalità */
 
+.faq:hover .faq_section:hover .accordion-item-content,
+.faq .accordion-item--default .accordion-item-content {
+    height: 6em;
+    color:black;
+}
+
+.accordion-item-content,
+.faq:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: .50s;
+}
+
 /* #endregion funzionalità */
 
 /* #region header */
 
 nav {
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 30
+    ;
 }
 
 .left,
@@ -236,6 +244,7 @@ header a {
 
 .jumbo {
     background-color: var(--jumbo);
+    padding-top: 6rem;
 }
 
 h1 {
