@@ -370,9 +370,7 @@ input{
     max-width: 60%;
 }
 
-.gray_debug{
-    background-color: gray;
-}
+
 
 .partners{
     height: 350px;
@@ -422,8 +420,35 @@ svg{
 .designit_center{
     padding: 3rem;
     width: 60%;
+    color: #f5f5f5;
 }
 
+.bg{
+    background-color: var(--hearst);
+}
+
+.max_width{
+    max-width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.max_width:first-child{
+    color: var(--arizona_university);
+}
+
+.last_trial{
+    padding: 0.5rem 3rem;
+    border: none;
+}
+
+.faq{
+    padding-top: 10rem;
+    max-width: 50%;
+    margin: auto;
+}
 
 /* #endregion main */ 
 
