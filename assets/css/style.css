@@ -1,24 +1,24 @@
 /* #region utility */
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family:'Open Sans', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-:root{
+:root {
     --jumbo: #B4D0E7;
     --buttons: #0061FF;
     --alt_bg: #D9D9D9;
@@ -34,85 +34,85 @@ body{
 
 }
 
-.pd_3{
+.pd_3 {
     padding: 3rem;
 }
 
-.pd_top1{
+.pd_top1 {
     padding-top: 1rem;
 }
 
-.pd_top2{
+.pd_top2 {
     padding-top: 2rem;
 }
 
-.pd_top3{
+.pd_top3 {
     padding-top: 2.2rem;
 }
 
-.pd_top1_5{
+.pd_top1_5 {
     padding-top: 1.5rem;
 }
 
-.pd_top1_7{
+.pd_top1_7 {
     padding-top: 1.7rem;
 }
 
-.pd_top6{
+.pd_top6 {
     padding-top: 6rem;
 }
 
-.mg_top1{
+.mg_top1 {
     margin-top: 1rem;
 }
 
 
-.mg_top2{
+.mg_top2 {
     margin-top: 2rem;
 }
 
-.mg_top3{
+.mg_top3 {
     margin-top: 3rem;
 }
 
-.mg_top4{
+.mg_top4 {
     margin-top: 4rem;
 }
 
-.mg_top6{
+.mg_top6 {
     margin-top: 6rem;
 }
 
-.mg_top13{
+.mg_top13 {
     margin-top: 13rem;
 }
 
-.mg_bot4{
+.mg_bot4 {
     margin-bottom: 4rem;
 }
 
-.mg_bot3{
+.mg_bot3 {
     margin-bottom: 3rem;
 }
 
-.mg_bot6{
+.mg_bot6 {
     margin-bottom: 6rem;
 }
 
-.mg_bot12{
+.mg_bot12 {
     margin-bottom: 12rem;
 }
 
-.gap{
+.gap {
     gap: 1rem;
 }
 
-.gap3{
+.gap3 {
     gap: 50px;
 }
 
 
-.fa-check{
+.fa-check {
     color: var(--buttons);
 }
 
@@ -122,56 +122,56 @@ body{
 
 /* #region col_ */
 
-.col_1{
-    width: calc( (100% / 12) * 1);
+.col_1 {
+    width: calc((100% / 12) * 1);
 }
 
-.col_2{
-    width: calc( (100% / 12) * 2);
+.col_2 {
+    width: calc((100% / 12) * 2);
 }
 
-.col_3{
-    width: calc( (100% / 12) * 3);
+.col_3 {
+    width: calc((100% / 12) * 3);
 }
 
-.col_4{
-    width: calc( (100% / 12) * 4 );
+.col_4 {
+    width: calc((100% / 12) * 4);
 }
 
-.col_4_gap{
-    width: calc( (100% / 12) * 4 - 3rem );
+.col_4_gap {
+    width: calc((100% / 12) * 4 - 3rem);
 }
 
-.col_5{
-    width: calc( (100% / 12) * 5);
+.col_5 {
+    width: calc((100% / 12) * 5);
 }
 
-.col_6{
-    width: calc( (100% / 12) * 6);
+.col_6 {
+    width: calc((100% / 12) * 6);
 }
 
-.col_7{
-    width: calc( (100% / 12) * 7);
+.col_7 {
+    width: calc((100% / 12) * 7);
 }
 
-.col_8{
-    width: calc( (100% / 12) * 8);
+.col_8 {
+    width: calc((100% / 12) * 8);
 }
 
-.col_9{
-    width: calc( (100% / 12) * 9);
+.col_9 {
+    width: calc((100% / 12) * 9);
 }
 
-.col_10{
-    width: calc( (100% / 12) * 10);
+.col_10 {
+    width: calc((100% / 12) * 10);
 }
 
-.col_11{
-    width: calc( (100% / 12) * 11);
+.col_11 {
+    width: calc((100% / 12) * 11);
 }
 
-.col_12{
-    width: calc( (100% / 12) * 12);
+.col_12 {
+    width: calc((100% / 12) * 12);
 }
 
 /* #endregion col_ */
@@ -180,27 +180,29 @@ body{
 
 /* #endregion funzionalità */
 
-/* #region header */ 
+/* #region header */
 
-nav{
+nav {
     justify-content: space-between;
 }
 
-.left, .right{
+.left,
+.right {
     gap: 1.7rem;
     padding: 1.5rem;
 }
 
-a, img{
+a,
+img {
     margin-top: 0.3rem;
 }
 
-header a{
+header a {
     text-decoration-line: none;
     color: black;
 }
 
-.start{
+.start {
     background-color: var(--buttons);
     border: none;
     padding: 0 1rem;
@@ -209,31 +211,31 @@ header a{
 }
 
 
-/* #endregion header */ 
+/* #endregion header */
 
-/* #region main */ 
+/* #region main */
 
-.jumbo{
+.jumbo {
     background-color: var(--jumbo);
 }
 
-h1{
+h1 {
     max-width: 1980px;
     font-size: 4.5rem;
     padding-top: 3%;
     padding-bottom: 2rem;
 }
 
-.container_jumbo{
+.container_jumbo {
     width: 60%;
     margin: auto;
 }
 
-.width_20{
+.width_20 {
     max-width: 20%;
 }
 
-.trial{
+.trial {
     font-size: 1.1rem;
     margin-top: 2rem;
     margin-bottom: 1.7rem;
@@ -244,53 +246,53 @@ h1{
     color: white;
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
     margin-top: 4rem;
     margin-bottom: 1rem;
     font-size: 3rem;
 
 }
 
-.jumbo_img{
+.jumbo_img {
     max-width: 45%;
     position: absolute;
 }
 
-.container_mid{
+.container_mid {
     width: 50%;
     margin: auto;
     margin-top: 10%;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-input{
+input {
     margin-top: 3rem;
 }
 
-.annuale{
+.annuale {
     margin-left: 2.5rem;
 }
 
-.border{
+.border {
     border: solid 1px;
 }
 
-.top_card{
+.top_card {
     text-align: center;
     padding: 5px;
     border-bottom: 1px solid;
 }
 
-.inside_card{
+.inside_card {
     padding-top: 2rem;
     max-width: 80%;
     margin: auto;
 }
 
-.free{
+.free {
     background-color: var(--buttons);
     border: none;
     padding: 1rem;
@@ -302,18 +304,18 @@ input{
     border-radius: 1rem;
 }
 
-.border_bot{
+.border_bot {
     border-bottom: 1px solid black;
     padding-bottom: 2rem;
 }
 
-.container_team{
+.container_team {
     margin-top: 2rem;
     text-align: center;
     border: 2px solid black;
 }
 
-.team{
+.team {
     padding: 0.5rem;
     margin-top: 3rem;
     text-align: center;
@@ -321,11 +323,11 @@ input{
     border-bottom: none;
 }
 
-.bord{
+.bord {
     border: 1px solid black;
 }
 
-.days{
+.days {
     background-color: var(--buttons);
     border: none;
     padding: 1rem;
@@ -333,101 +335,109 @@ input{
     border-radius: 1rem;
 }
 
-.team_left{
+.team_left {
     padding: 2rem;
 }
 
-.team_right{
+.team_right {
     padding: 2rem;
     text-align: end;
 }
 
-.partner{
+.partner {
     max-width: 90%;
     padding-top: 8rem;
 }
 
-.right_partner{
+.right_partner {
     padding-top: 13rem;
     max-width: 28%;
 }
 
-.contact_partner{
+.contact_partner {
     font-size: 1.5rem;
 }
 
-.find_partner{
+.find_partner {
     margin-top: 3rem;
     padding: 0.7rem;
     background-color: white;
 }
 
-.business{
+.business {
     max-width: 100%;
 }
 
-.drop_business{
+.drop_business {
     max-width: 60%;
 }
 
 
 
-.partners{
+.partners {
     height: 350px;
     max-width: 50%;
     text-align: center;
 }
 
-svg{
+svg {
     fill: white;
 }
 
-.flory{
+.flory {
     max-width: 60%;
     text-align: center;
     height: 350px;
     padding-top: 50%;
 }
-.center{
+
+.center {
     justify-content: center;
 }
 
-.designit{
+.designit {
     background-color: var(--designit);
 }
-.arizona{
+
+.arizona {
     background-color: var(--arizona_university);
 }
-.florida{
+
+.florida {
     background-color: var(--florida);
 }
-.topps{
+
+.topps {
     background-color: var(--topps);
 }
-.world{
+
+.world {
     background-color: var(--world_bicycle);
 }
-.hearst{
+
+.hearst {
     background-color: var(--hearst);
 }
-.lonely{
+
+.lonely {
     background-color: var(--lonelyplanet);
 }
-.clear{
+
+.clear {
     background-color: var(--clear_channel);
 }
 
-.designit_center{
+.designit_center {
     padding: 3rem;
     width: 60%;
     color: #f5f5f5;
 }
 
-.bg{
+.bg {
     background-color: var(--hearst);
 }
 
-.max_width{
+.max_width {
     max-width: 50%;
     margin: auto;
     justify-content: space-between;
@@ -435,24 +445,79 @@ svg{
     padding-bottom: 8rem;
 }
 
-.max_width:first-child{
+.max_width:first-child {
     color: var(--arizona_university);
 }
 
-.last_trial{
+.last_trial {
     padding: 0.5rem 3rem;
     border: none;
 }
 
-.faq{
+.faq {
     padding-top: 10rem;
     max-width: 50%;
     margin: auto;
 }
 
-/* #endregion main */ 
+.faq>h2 {
+    margin-bottom: 3.5rem;
+}
 
-/* #region footer */ 
+.faq_section {
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    justify-content: space-between;
+    border-top: 1px solid;
+}
 
-/* #endregion footer */ 
+.last_faq {
+    border-bottom: 1px solid;
+}
 
+/* #endregion main */
+
+/* #region footer */
+
+#site_footer{
+    background-color: var(--footer);
+    color: white;
+}
+
+.containter_footer{
+    padding-top: 6rem;
+    width: 60%;
+    margin: auto;
+}
+
+.dropbox{
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    padding: 0.5rem;
+}
+
+footer strong{
+    font-size: 1.6rem;
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.language{
+    width: 70%;
+    padding-top: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    border-top: 1px solid gray;
+}
+
+
+/* #endregion footer */
