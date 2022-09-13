@@ -66,6 +66,12 @@ body{
     margin-top: 6rem;
 }
 
+.mg_top13{
+    margin-top: 13rem;
+}
+
+
+
 .gap{
     gap: 1rem;
 }
@@ -79,13 +85,23 @@ body{
 }
 
 
-.mg_bot{
+.mg_bot4{
     margin-bottom: 4rem;
+}
+
+.mg_bot3{
+    margin-bottom: 3rem;
+}
+
+.mg_bot6{
+    margin-bottom: 6rem;
 }
 
 .fa-check{
     color: var(--buttons);
 }
+
+
 
 /* #endregion utility */
 
@@ -332,6 +348,18 @@ input{
 }
 
 .business{
+    max-width: 100%;
+}
+
+.drop_business{
+    max-width: 60%;
+}
+
+.gray_debug{
+    background-color: gray;
+}
+
+.partners{
     max-width: 100%;
 }
 /* #endregion main */ 
