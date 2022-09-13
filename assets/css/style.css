@@ -34,6 +34,25 @@ body {
 
 }
 
+
+/* #region test */
+
+.faq:hover .faq_section:hover .accordion-item-content,
+.faq .accordion-item--default .accordion-item-content {
+    height: 6em;
+    color:black;
+}
+
+.accordion-item-content,
+.faq:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: .50s;
+}
+
+
+/* #endregion test */
+
 .pd_3 {
     padding: 3rem;
 }
@@ -473,6 +492,11 @@ svg {
 
 .last_faq {
     border-bottom: 1px solid;
+    margin-bottom: 10rem;
+}
+
+.fa-angle-down{
+    margin-left: 30%;
 }
 
 /* #endregion main */
