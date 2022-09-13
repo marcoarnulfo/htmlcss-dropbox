@@ -384,6 +384,12 @@ svg{
     fill: white;
 }
 
+.flory{
+    max-width: 60%;
+    text-align: center;
+    height: 350px;
+    padding-top: 50%;
+}
 .center{
     justify-content: center;
 }
