@@ -23,6 +23,15 @@ body{
     --buttons: #0061FF;
     --alt_bg: #D9D9D9;
     --footer: #000000;
+    --florida: #0093CE;
+    --lonelyplanet: #0D2481;
+    --arizona_university: #61082B;
+    --designit: #A2D39B;
+    --hearst: #B4D0E7;
+    --world_bicycle: #D5001F;
+    --topps: #FF1C1C;
+    --clear_channel: #FFD830;
+
 }
 
 .pd_top1{
@@ -360,7 +369,37 @@ input{
 }
 
 .partners{
-    max-width: 100%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.center{
+    justify-content: center;
+}
+
+.designit{
+    background-color: var(--designit);
+}
+.arizona{
+    background-color: var(--arizona_university);
+}
+.florida{
+    background-color: var(--florida);
+}
+.topps{
+    background-color: var(--topps);
+}
+.world{
+    background-color: var(--world_bicycle);
+}
+.hearst{
+    background-color: var(--hearst);
+}
+.lonely{
+    background-color: var(--lonelyplanet);
+}
+.clear{
+    background-color: var(--clear_channel);
 }
 /* #endregion main */ 
 
