@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 </head>
 
 <body>
@@ -20,15 +20,69 @@
         <nav class="flex">
             <div class="left flex">
                 <img src="./assets/img/logo-small.png" alt="">
-                <a href="#">Perhè Dropbox</a>
-                <a href="#">Funzioni</a>
-                <a href="#">Piani e Prezzi</a>
+                <div class="dropdown">
+                    <button class="drop_button">Perhè Dropbox</button>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">Panoramica</a>
+                        <a class="dropdown-item" href="#">Ispirati</a>
+                        <a class="dropdown-item" href="#">Cosa dicono i clienti</a>
+                        <a class="dropdown-item" href="#">Integrazioni di App</a>
+                        <a class="dropdown-item" href="#">Risorse</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="drop_button">Funzioni</button>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">Panoramica</a>
+                        <a class="dropdown-item" href="#">Ispirati</a>
+                        <a class="dropdown-item" href="#">Cosa dicono i clienti</a>
+                        <a class="dropdown-item" href="#">Integrazioni di App</a>
+                        <a class="dropdown-item" href="#">Risorse</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="drop_button">Piani e prezzi</button>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">Panoramica</a>
+                        <a class="dropdown-item" href="#">Ispirati</a>
+                        <a class="dropdown-item" href="#">Cosa dicono i clienti</a>
+                        <a class="dropdown-item" href="#">Integrazioni di App</a>
+                        <a class="dropdown-item" href="#">Risorse</a>
+                    </div>
+                </div>
             </div>
             <div class="right flex">
-                <a href="#">Supporto</a>
-                <a href="#">Contatta l'ufficio vendite</a>
-                <a href="#">Accedi</a>
-                <button class="start">Inizia</button>
+                <div class="dropdown">
+                    <button class="drop_button">Supporto</button>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">Panoramica</a>
+                        <a class="dropdown-item" href="#">Ispirati</a>
+                        <a class="dropdown-item" href="#">Cosa dicono i clienti</a>
+                        <a class="dropdown-item" href="#">Integrazioni di App</a>
+                        <a class="dropdown-item" href="#">Risorse</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="drop_button">Contatta l'ufficio vendite</button>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">Panoramica</a>
+                        <a class="dropdown-item" href="#">Ispirati</a>
+                        <a class="dropdown-item" href="#">Cosa dicono i clienti</a>
+                        <a class="dropdown-item" href="#">Integrazioni di App</a>
+                        <a class="dropdown-item" href="#">Risorse</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="drop_button">Accedi</button>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">Panoramica</a>
+                        <a class="dropdown-item" href="#">Ispirati</a>
+                        <a class="dropdown-item" href="#">Cosa dicono i clienti</a>
+                        <a class="dropdown-item" href="#">Integrazioni di App</a>
+                        <a class="dropdown-item" href="#">Risorse</a>
+                    </div>
+                </div>
+                <a href="#" class="start">Inizia</a>
             </div>
         </nav>
     </header>
@@ -45,11 +99,11 @@
                                 accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione
                                 sicuro:è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                             </p>
-                            <button class="trial">Inizia la tua prova gratuita</button>
+                                <a class="trial" href="#">Inizia la tua prova gratuita</a>
                             <div>Annulla in qualsiasi momento</div>
                             <i class="fa-solid fa-arrow-down"></i>
                         </div>
-                        <div class="col_8 padding_top">
+                        <div class="col_8 flex">
                             <img class="jumbo_img" src="./assets/img/jumbo.png" alt="">
                         </div>
                     </div>
@@ -96,7 +150,7 @@
                                     funzioni di produttività premium e condivisione file semplici e sciura
                                 </div>
                             </div>
-                            <button class="mg_top2 free">Prova gratis per 30 giorni</button>
+                            <a href="#" class="mg_top2 free">Prova gratis per 30 giorni</a>
                             <div class="pd_top2">
                                 <span class="border_bot">
                                     oppure
@@ -148,7 +202,7 @@
                                     Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
                                 </div>
                             </div>
-                            <button class="mg_top2 free">Prova gratis per 30 giorni</button>
+                            <a href="#" class="mg_top2 free">Prova gratis per 30 giorni</a>
                             <div class="pd_top2">
                                 <span class="border_bot">
                                     oppure
@@ -219,7 +273,7 @@
                                     scala
                                 </div>
                             </div>
-                            <button class="mg_top2 free">Prova gratis per 30 giorni</button>
+                            <a href="#" class="mg_top2 free">Prova gratis per 30 giorni</a>
                             <div class="pd_top2">
                                 <span class="border_bot">
                                     oppure
@@ -261,7 +315,7 @@
                                 professionisti IT nella gestione su qualsiasi scala.</p>
                         </div>
                         <div class="col_4 team_right ">
-                            <button class="days">Prova gratis per 30 giorni</button>
+                            <a href="#" class="days">Contatta l'ufficio vendite</a>
                         </div>
                     </div>
                 </div>
@@ -276,7 +330,7 @@
                             <p class="mg_top1">Trova un partner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i
                                 servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione,
                                 integrazione, gestione e supporto continui</p>
-                            <button class="find_partner">Trova un partner</button>
+                            <a href="#" class="find_partner">Trova un partner</a>
                         </div>
                     </div>
                 </div>
@@ -569,21 +623,21 @@
                 <strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong>
                 <i class="fa-solid fa-angle-down"></i>
                 <div class="accordion-item-content">
-                    <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo neque distinctio ut officiis iusto sit libero sed reprehenderit. Optio quam beatae nemo nulla sint magni ducimus harum explicabo? Dolorem sit, animi reiciendis obcaecati architecto laudantium quo amet, tempora incidunt accusantium ipsum eos. Repellat vero placeat omnis amet velit culpa sint.</p>
                 </div>
             </div>
             <div class="faq_section">
                 <strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong>
                 <i class="fa-solid fa-angle-down"></i>
                 <div class="accordion-item-content ">
-                    <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore sed nemo. Quibusdam exercitationem corporis temporibus cupiditate tempora! Quidem delectus veritatis animi, sequi veniam qui hic nobis velit accusamus magni, excepturi necessitatibus beatae. Iure nam, harum quidem officia quos optio, error dolores similique temporibus eos quas consectetur placeat quibusdam debitis.</p>
                 </div>
             </div>
             <div class="faq_section last_faq">
                 <strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong>
                 <i class="fa-solid fa-angle-down"></i>
                 <div class="accordion-item-content">
-                    <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae voluptatum inventore, aliquid voluptas quibusdam nesciunt porro ab unde quos, harum obcaecati ad natus amet repudiandae cumque accusamus nemo, pariatur nihil vero! Incidunt distinctio vitae, odit ea quia dolore aut ipsum enim quos, eius laboriosam porro reiciendis, nemo obcaecati numquam.</p>
                 </div>
             </div>
         </div>
@@ -597,11 +651,11 @@
                 <div class="drx">
                     <ul>
                         <li class="title"> Dropbox</li>
-                        <li>Applicazione desktop</li>
-                        <li class="border_bottom">Perchè Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="#">Applicazione desktop</a></li>
+                        <li><a href="#">Perchè Dropbox</a></li>
+                        <li><a href="#">Piani</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Funzioni</a></li>
                     </ul>
                     <div class="language">
                         <i class="fa-solid fa-earth-americas"></i>
@@ -612,41 +666,41 @@
                 <div class="prodotti">
                     <ul>
                         <li class="title">Prodotti</li>
-                        <li>Applicazione desktop</li>
-                        <li>Perchè Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="#">Applicazione desktop</a></li>
+                        <li><a href="#">Perchè Dropbox</a></li>
+                        <li><a href="#">Piani</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Funzioni</a></li>
                     </ul>
                 </div>
                 <div class="azienda">
                     <ul>
                         <li class="title">Azienda</li>
-                        <li>Applicazione desktop</li>
-                        <li>Perchè Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="#">Applicazione desktop</a></li>
+                        <li><a href="#">Perchè Dropbox</a></li>
+                        <li><a href="#">Piani</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Funzioni</a></li>
                     </ul>
                 </div>
                 <div class="supporto">
                     <ul>
                         <li class="title">Supporto</li>
-                        <li>Applicazione desktop</li>
-                        <li>Perchè Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="#">Applicazione desktop</a></li>
+                        <li><a href="#">Perchè Dropbox</a></li>
+                        <li><a href="#">Piani</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Funzioni</a></li>
                     </ul>
                 </div>
                 <div class="community">
                     <ul>
                         <li class="title">Community</li>
-                        <li>Applicazione desktop</li>
-                        <li>Perchè Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="#">Applicazione desktop</a></li>
+                        <li><a href="#">Perchè Dropbox</a></li>
+                        <li><a href="#">Piani</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Funzioni</a></li>
                     </ul>
                 </div>
             </div>
