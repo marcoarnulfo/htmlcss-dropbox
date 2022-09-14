@@ -238,7 +238,7 @@ body {
 }
 
 footer a:hover{
-    text-shadow: 0 2px 10px white;
+    text-decoration: underline white;
 }
 
 
