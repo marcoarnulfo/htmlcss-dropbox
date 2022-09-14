@@ -34,47 +34,6 @@ body {
 
 }
 
-
-/* #region test */
-
-.drop_button {
-    background-color: white;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    box-shadow: 0px 8px 20px 0px black;
-    z-index: 10;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-
-}
-
-.dropdown:hover .dropdown-content{
-    display: block;
-    background-color: lightgray;
-}
-
-.dropdown-item:hover{
-    background-color: gray;
-    box-shadow: inset 0 0 20px lightgray;
-}
-
-
-
-/* #endregion test */
-
 .pd_3 {
     padding: 3rem;
 }
@@ -106,7 +65,6 @@ body {
 .mg_top1 {
     margin-top: 1rem;
 }
-
 
 .mg_top2 {
     margin-top: 2rem;
@@ -156,7 +114,6 @@ body {
 .fa-check {
     color: var(--buttons);
 }
-
 
 
 /* #endregion utility */
@@ -219,9 +176,54 @@ body {
 
 /* #region funzionalità */
 
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #b0b7be;
+}
+
+.dropdown-item:hover{
+    background-color: white;
+}
+
+.start:hover{
+    background-color: var(--florida);
+    box-shadow: 0 0 10px var(--buttons);
+    transition: 0.70s;
+}
+
+.trial:hover{
+    background-color: var(--florida);
+    box-shadow: 0 0 10px var(--buttons);
+    transition: 0.70s;
+}
+
+.days:hover{
+    background-color: var(--florida);
+    box-shadow: 0 0 10px var(--buttons);
+    transition: 0.70s;
+}
+
+.free:hover{
+    background-color: var(--florida);
+    box-shadow: 0 0 10px var(--buttons);
+    transition: 0.70s;
+}
+
+.find_partner:hover{
+    box-shadow: 0 0 5px black;
+    transition: 0.70s;
+}
+
+.last_trial:hover{
+    box-shadow: 0 0 5px black;
+    transition: 0.70s;
+}
+
+
 .faq:hover .faq_section:hover .accordion-item-content,
-.faq .accordion-item--default .accordion-item-content {
-    height: 6em;
+.faq .accordion-item-content .accordion-item-content {
+    height: 7em;
     color:black;
 }
 
@@ -231,6 +233,11 @@ body {
     overflow: hidden;
     transition: 0.75s;
 }
+
+footer a:hover{
+    text-shadow: 0 2px 10px white;
+}
+
 
 /* #endregion funzionalità */
 
@@ -243,18 +250,20 @@ nav {
     right: 0;
     left: 0;
     z-index: 30;
+    box-shadow: 0 0 10px var(--buttons);
 
 }
 
 .left,
 .right {
     gap: 1.7rem;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 nav img{
-    margin-top: 0.50rem;
-    max-height: 30px;
+    margin-top: 0.70rem;
+    max-height: 25px;
+
 }
 
 
@@ -263,17 +272,38 @@ header a {
     color: black;
 }
 
+.drop_button {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 20px 0px black;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+
 .start{
     background-color: var(--buttons);
     border: none;
-    padding: 0.75rem 1rem;
+    padding: 1rem;
     color: white;
 }
 
-.start:hover{
-    background-color: var(--florida);
-    box-shadow: 0 0 10px var(--buttons)
-}
 
 
 /* #endregion header */
@@ -314,18 +344,11 @@ h1 {
     color: white;
 }
 
-.trial:hover{
-    background-color: var(--florida);
-    box-shadow: 0 0 10px var(--buttons)
-}
-
-
 
 .fa-arrow-down {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-top: 5rem;
     font-size: 3rem;
-
+    color: black;
 }
 
 .jumbo_img{
@@ -344,9 +367,12 @@ h2 {
     font-size: 2rem;
 }
 
-input {
+input[type="radio"]{
     margin-top: 3rem;
+    width: 1rem;
+    height: 1rem;
 }
+
 
 .annuale {
     margin-left: 2.5rem;
@@ -375,11 +401,6 @@ input {
     padding: 1rem;
     text-align: center;
     color: white;
-}
-
-.free:hover{
-    background-color: var(--florida);
-    box-shadow: 0 0 10px var(--buttons);
 }
 
 .border_bot {
@@ -414,11 +435,6 @@ input {
     padding: 1rem;
 }
 
-.days:hover{
-    background-color: var(--florida);
-    box-shadow: 0 0 10px var(--buttons);
-}
-
 .team_left {
     padding: 2rem;
 }
@@ -451,9 +467,6 @@ input {
     color:  black;
 }
 
-.find_partner:hover{
-    box-shadow: 0 0 5px black;
-}
 
 .business {
     max-width: 100%;
@@ -488,6 +501,7 @@ svg {
 
 .designit {
     background-color: var(--designit);
+    box-shadow: inset #D1E9CD 0 0 0 15px;
 }
 
 .arizona {
@@ -540,9 +554,16 @@ svg {
     color: var(--arizona_university);
 }
 
+.start_last_trial{
+    margin-top: 1rem;
+}
+
 .last_trial {
-    padding: 0.5rem 3rem;
-    border: none;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.75rem 3rem;
 }
 
 .faq {
@@ -608,10 +629,6 @@ footer li{
 footer a{
     text-decoration: none;
     color: white;
-}
-
-footer a:hover{
-    text-shadow: 0 2px 10px white;
 }
 
 .title{

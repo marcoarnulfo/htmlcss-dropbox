@@ -9,9 +9,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 </head>
 
@@ -21,7 +21,7 @@
             <div class="left flex">
                 <img src="./assets/img/logo-small.png" alt="">
                 <div class="dropdown">
-                    <button class="drop_button">Perhè Dropbox</button>
+                    <button class="drop_button">Perchè Dropbox</button>
                     <div class="dropdown-content">
                         <a class="dropdown-item" href="#">Panoramica</a>
                         <a class="dropdown-item" href="#">Ispirati</a>
@@ -101,7 +101,8 @@
                             </p>
                                 <a class="trial" href="#">Inizia la tua prova gratuita</a>
                             <div>Annulla in qualsiasi momento</div>
-                            <i class="fa-solid fa-arrow-down"></i>
+                            <a href="#arizona"><i class= "fa-solid fa-arrow-down"></i></a>
+                            
                         </div>
                         <div class="col_8 flex">
                             <img class="jumbo_img" src="./assets/img/jumbo.png" alt="">
@@ -114,10 +115,10 @@
         <div class="container_mid">
             <div>
                 <h2>Trova il piano business che fa per te</h2>
-                <input type="checkbox">
-                Fatturazione Mensile
-                <input class="annuale" type="checkbox">
-                Fatturazione Annuale
+                <input type="radio">
+                <span>Fatturazione mensile</span>
+                <input  class="annuale" type="radio">
+                <span>Fatturazione annuale</span>
             </div>
 
             <div class="container">
@@ -147,7 +148,7 @@
                                     <i class="fa-solid fa-diagram-project"></i>
                                 </div>
                                 <div class=" pd_top1 col_11">
-                                    funzioni di produttività premium e condivisione file semplici e sciura
+                                    funzioni di produttività premium e condivisione file semplici e sicura.
                                 </div>
                             </div>
                             <a href="#" class="mg_top2 free">Prova gratis per 30 giorni</a>
@@ -199,7 +200,7 @@
                                     <i class="fa-solid fa-diagram-project"></i>
                                 </div>
                                 <div class=" pd_top1 col_11">
-                                    Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                    Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team.
                                 </div>
                             </div>
                             <a href="#" class="mg_top2 free">Prova gratis per 30 giorni</a>
@@ -269,8 +270,7 @@
                                     <i class="fa-solid fa-diagram-project"></i>
                                 </div>
                                 <div class=" pd_top1 col_11">
-                                    Assistente personalizzata per aiutare gli amministratori in una gestione su larga
-                                    scala
+                                    Assistente personalizzata per aiutare gli amministratori in una gestione su larga scala.
                                 </div>
                             </div>
                             <a href="#" class="mg_top2 free">Prova gratis per 30 giorni</a>
@@ -408,7 +408,7 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="col_6 flex center arizona">
+                    <div id="arizona" class="col_6 flex center arizona">
                         <!-- Arizona state university-->
                         <svg class="partners" viewBox="0 0 398 305" xmlns="http://www.w3.org/2000/svg">
                             <title>asu_university_vert_rgb</title>
@@ -614,7 +614,9 @@
         <div class="bg">
             <div class="flex max_width">
                 <h2>Porta Dropbox Business <br> nella tua azienda.</h2>
-                <div><button class="last_trial">Inizia la prova gratuita</button></div>
+                <div class="start_last_trial">
+                    <a href="#" class="last_trial">Inizia la prova gratuita</a>
+                </div>
             </div>
         </div>
         <div class="faq">
