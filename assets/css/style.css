@@ -336,7 +336,7 @@ h1 {
 
 .trial {
     text-decoration: none;
-    display: block;
+    display: inline-block;
     font-size: 1.1rem;
     margin-top: 2rem;
     margin-bottom: 1.7rem;
