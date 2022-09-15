@@ -484,9 +484,9 @@ input[type="radio"]{
 
 
 .partners {
-    height: 350px;
     max-width: 50%;
     text-align: center;
+    aspect-ratio: 1/2;
 }
 
 svg {
@@ -495,13 +495,12 @@ svg {
 
 .flory {
     max-width: 60%;
-    text-align: center;
-    height: 350px;
-    padding-top: 50%;
+    padding-top: 30%;
 }
 
 .center {
     justify-content: center;
+    align-items: center;
 }
 
 .designit {
